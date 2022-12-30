@@ -1,0 +1,57 @@
+{
+    "items": [
+        {
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "text": "*~{fontSize:32}Introduction to Dart Programming Language~*\n\nDart is an open-source general-purpose programming language. It is originally developed by Google. Dart is an object-oriented language with C-style syntax. It supports programming concepts like interfaces, classes, unlike other programming languages Dart doesn’t support arrays. Dart collections can be used to replicate data structures such as arrays, generics, and optional typing. It is meant for both server side as well as the user side. The Dart SDK comes with its compiler – the Dart VM and a utility dart2js which is meant for generating Javascript equivalent of a Dart Script so that it can be run on those sites also which don’t support Dart. \n\nDart is Object-oriented language and is quite similar to that of Java Programming. Dart is extensively use to create single-page websites and web-applications. Best example of dart application is Gmail.\n\nYou can install Dart SDK from their official website or download the installer from this site.\n\n",
+            "image_is": "false"
+        },
+        {
+            "button_is": "true",
+            "button_url": "https://dart.dev/get-dart",
+            "button_text": "Yuklab olish va o'rnatish uchun qo'llanma",
+            "text_is": "false",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "text": "*First Code in Dart:*\n\nIn dart main() function is predefined method and acts as the entry point to the application. A dart script needs the main() method for execution of the code. The program code goes like this:",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "code_path": "void main() { \n    print(\"Flutterni o'rganamiz\"); \n} ",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "code_path": "Flutterni o`rganamiz",
+            "title": "Output",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "text": "\n\nThe print() command is predefined function that prints the specific string or value to the standard input.\n\n*Execution of program:*\n\n1. *Online Compiler*: The online compiler which support Dart is Dart Pad.\n\n2. *IDE*: The IDEs which support Dart are WebStorm, Intellij, Eclipse, etc. Among them WebStorm from Jetbrains is available for Mac OS, Windows and Linux.\n\n1. The dart program can also be compile through terminal by executing the code dart *file_name.dart*.",
+            "image_is": "false"
+        },
+        {
+            "button_is": "true",
+            "button_url": "https://dartpad.dev/",
+            "button_text": "Online compiler Dart Pad",
+            "text_is": "false",
+            "code": "false",
+            "image_is": "false"
+        }
+    ]
+}
