@@ -1,0 +1,198 @@
+{
+    "items": [
+        {
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false",
+            "text": "*~{fontSize:32}Dart Syntax~*\n\nSummary: in this tutorial, you’ll learn about Dart syntaxes including whitespace, statements, identifiers, keywords, literals, and comments.\n\n*~{fontSize:32}Introduction to the Dart syntax~*\n\nThe Dart programming language follows the C-style syntax. If you’re familiar with C/C++ or C#, you’ll find similarities in the Dart language.\n\n~{fontSize:32}Whitespace~\n\nIn Dart, whitespace refers to characters that don’t have visible output, which includes:\n\n   - Carriage return\n   - Space\n   - New Line\n   - Tab\nWhen compiling the source code, the Dart compiler ignores the whitespaces. However, you’ll use whitespaces to format the code to make it easier to read.\n\nFor example, the following programs are the same. The first program uses whitespace while the second one does not use newlines. Even though their appearances are different, the Dart compiler will treat both programs the same."
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "code_path": "// formatted\nvoid main() {\n  bool android = true;\n  if (android) {\n    print(\"Android\");\n  }\n}",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "code_path": "// not formtted\nvoid main() { bool android = true; if (android) { print(\"Android\");}}",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false",
+            "text": "~{fontSize:32}Statements~\n\nA statement is an instruction that declares a type or instructs the program to perform a task. A statement is always terminated by a semicolon (;). For example, the following program has two statements:"
+        },
+        {
+            "code_path": "void main() {\n  String message = 'Welcome to Dart!';\n  print(message);\n}\n",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "The first statement declares a string variable and initializes its value to the string ~{color:red}'Welcome to Dart!'~:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "String message = 'Welcome to Dart!';",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "The second statement displays the value of the ~{color:red}message~ variable to the console:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "print(message);",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "Both statements are terminated by the semicolon (;).\n\n~{fontSize:32}Blocks~\n\nIn Dart, a block is a sequence of zero or more statements. A block is surrounded by curly braces ({}). For example, you can group statements into a block as follows:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "{\n   String message = 'Welcome to Dart!';\n   print(message);\n}",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "Unlike a statement, a block is not terminated by a semicolon (;). In practice, you’ll use blocks with the control flow statements like if else, while, do while, and for.\n\n~{fontSize:32}Identifiers~\nIdentifiers are names that you assign to the variables, constants, functions, etc. In Dart, the names of identifiers follow these rules:\n\n   - The alphabetic ([a-z], [A-Z]) and underscore (_) characters can appear at any position.\n   - Digits (0-9) cannot be in the first position but everywhere else.\nIdentifiers are case-sensitive. For example, message and Message identifiers are different.\n\n~{fontSize:32}Keywords~\n\nKeywords are names that have a special meaning to the Dart compiler. All keywords are reserved identifiers. Therefore, you cannot use them as the names of identifiers.\n\nThe following table shows Dart keywords:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "false",
+            "image_is": "true",
+            "image": "https://github.com/datausmxn/learnflut_data/blob/main/images/keywords.jpg"
+        },
+        {
+            "text": "Literals\n\nLiterals are primitive values in the program. For example, an integer has the following literal:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "10",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "To form a literal string, you surround text with single quotes ('), double quotes (\"), or triple quotes (\"\"\"). For example:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "'Welcome to Dart!'",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "~{fontSize:32}Comments~\n\nComments help you to document your code. Dart has the following types of comments:\n\n   - Single-line comments\n   - Block comments\n   - Doc comments\nThe Dart compiler ignores the comments when compiling the code.\n\nSingle-line comments\nA single-line comment starts with a double forward-slash (//) and continues to the end of the line. For example:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "String message = 'Welcome to Dart!'; // a greeting message",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "In this example, The following is a single-line comment:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "// a greeting message",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "Block comments\n\nA block comment starts with /* and ends with */. A block comment can span any number of lines. For example:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "/*\n    A block comment can span \n    multiple lines\n*/",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "Doc comments\n\nA Doc comment starts with the /// and appears before any declaration. It is used by the dart doc command line to generate beautiful documentation. For example:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "/// The greeting message\nString message = 'Welcome to Dart!';",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "text": "Summary\n\n   - Whitespaces are carriage return, space, newline, and tab which are ignored by the Dart compiler.\n   - Statements are terminated with a semicolon (;).\n   - Blocks consist of one or statements surrounded by curly braces ({}).\n   - Identifiers are case-sensitive.\n   - Do use comments to document the code and explain why the code does something.",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        }
+    ]
+}
