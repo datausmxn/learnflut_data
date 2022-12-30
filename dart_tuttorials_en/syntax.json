@@ -95,7 +95,7 @@
             "text_is": "false",
             "code": "false",
             "image_is": "true",
-            "image": "https://github.com/datausmxn/learnflut_data/blob/main/images/keywords.jpg"
+            "image": "https://datausmxn.github.io/learnflut_data/images/keywords.jpg"
         },
         {
             "text": "Literals\n\nLiterals are primitive values in the program. For example, an integer has the following literal:",
