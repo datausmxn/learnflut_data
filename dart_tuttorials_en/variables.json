@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "text" : "*~{fontSize:32}Dart Variables~*\n\n*Summary:* in this tutorial, you’ll learn about Dart variables and how to use them to store and manage data effectively.\n\n*~{fontSize:32}Introduction to Dart variables~*\n\nIn programming, you need to manage values like numbers, strings, and booleans. To store these values in programs, you use variables.\n\nA variable is an identifier that stores a value of a specific type. By definition, a variable is associated with a type and has a name.\n\nDeclaring variables\n\nThe following syntax illustrates how to declare a variable:",
+            "text" : "*~{fontSize:32}Dart Variables~*\n\n*Summary:* in this tutorial, you’ll learn about Dart variables and how to use them to store and manage data effectively.\n\n*Introduction to Dart variables*\n\nIn programming, you need to manage values like numbers, strings, and booleans. To store these values in programs, you use variables.\n\nA variable is an identifier that stores a value of a specific type. By definition, a variable is associated with a type and has a name.\n\nDeclaring variables\n\nThe following syntax illustrates how to declare a variable:",
             "button_is": "false",
             "text_is": "true",
             "code": "false",
