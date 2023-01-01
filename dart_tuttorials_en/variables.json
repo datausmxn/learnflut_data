@@ -31,74 +31,162 @@
             "image_is": "false"
         },
         {
-            "text": "Assigning a value to a variable\n\nTo assign a value to a variable, you use the assignment operator (=). For example, the following assigns 200 to the httpStatusCode variable:"
+            "text": "Assigning a value to a variable\n\nTo assign a value to a variable, you use the assignment operator (=). For example, the following assigns 200 to the httpStatusCode variable:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
         },
         {
-            "code_path": "void main() {\n  int httpStatusCode;\n  httpStatusCode = 200;\n}"
+            "code_path": "void main() {\n  int httpStatusCode;\n  httpStatusCode = 200;\n}",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
-            "text": "To make it shorter, you can both declare a variable and initialize its value using a single statement like this:"
+            "text": "To make it shorter, you can both declare a variable and initialize its value using a single statement like this:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
         },
         {
-            "code_path": "void main() {\n  int httpStatusCode = 200;\n}"
+            "code_path": "void main() {\n  int httpStatusCode = 200;\n}",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
-            "text": "Once you assign a value to a variable, you can use it. For example, the following displays the value of the httpStatusCode variable:"
+            "text": "Once you assign a value to a variable, you can use it. For example, the following displays the value of the httpStatusCode variable:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
         },
         {
-            "code_path": "void main() {\n  int httpStatusCode = 200;\n  print('httpStatusCode: $httpStatusCode');\n}"
+            "code_path": "void main() {\n  int httpStatusCode = 200;\n  print('httpStatusCode: $httpStatusCode');\n}",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
             "code_path": "httpStatusCode: 200",
-            "title": "Output"
+            "title": "Output",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
-            "text": "Note that if you use a variable that has not been initialized or assigned, you’ll get a compilation error.\n\nAssigning a variable to another\n\nDart allows you to assign a variable to another:"
+            "text": "Note that if you use a variable that has not been initialized or assigned, you’ll get a compilation error.\n\nAssigning a variable to another\n\nDart allows you to assign a variable to another:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
         },
         {
-            "code_path": "variableName = anotherVariable;"
+            "code_path": "variableName = anotherVariable;",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
             "code_path": "void main() {\n  int httpStatusCode = 200;\n  int response = httpStatusCode;\n\n  print('response: $response');\n}",
-            "title": "For example:"
+            "title": "For example:",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
             "code_path": "response: 200",
-            "title": "Output:"
+            "title": "Output:",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
-            "text": "How it works.\n\nFirst, declare the httpStatusCode variable and initialize its value to 200:"
+            "text": "How it works.\n\nFirst, declare the httpStatusCode variable and initialize its value to 200:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
         },
         {
-            "code_path": "int httpStatusCode = 200;"
+            "code_path": "int httpStatusCode = 200;",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
-            "text": "Second, declare the response variable and assign the httpStatusCode to the response variable:"
+            "text": "Second, declare the response variable and assign the httpStatusCode to the response variable:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
         },
         {
-            "code_path": "int response = httpStatusCode;"
+            "code_path": "int response = httpStatusCode;",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
-            "text": "Third, display the value of the response variable:"
+            "text": "Third, display the value of the response variable:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
         },
         {
-            "code_path": "print('response: $response');"
+            "code_path": "print('response: $response');",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
-            "text": "Note that the response and httpStatusCode has the same value. However, if you change the value of httpStatusCode variable, it won’t affect the response variable. For example:"
+            "text": "Note that the response and httpStatusCode has the same value. However, if you change the value of httpStatusCode variable, it won’t affect the response variable. For example:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
         },
         {
-            "code_path": "void main() {\n  int httpStatusCode = 200;\n  int response = httpStatusCode;\n  print('httpStatusCode: $httpStatusCode,response: $response');\n\n  httpStatusCode = 500;\n  print('httpStatusCode: $httpStatusCode,response: $response');\n}"
+            "code_path": "void main() {\n  int httpStatusCode = 200;\n  int response = httpStatusCode;\n  print('httpStatusCode: $httpStatusCode,response: $response');\n\n  httpStatusCode = 500;\n  print('httpStatusCode: $httpStatusCode,response: $response');\n}",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
             "code_path": "httpStatusCode: 200,response: 200\nhttpStatusCode: 500,response: 200",
-            "title": "Output:"
+            "title": "Output:",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         },
         {
-            "text": "In this example:\n\nFirst, assign the httpStatusCode to the response variable. Both variables hold the same value 200:"
+            "text": "In this example:\n\nFirst, assign the httpStatusCode to the response variable. Both variables hold the same value 200:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
         },
         {
-            "code_path": "int httpStatusCode = 200;\nint response = httpStatusCode;\nprint('httpStatusCode: $httpStatusCode,response: $response');"
+            "code_path": "int httpStatusCode = 200;\nint response = httpStatusCode;\nprint('httpStatusCode: $httpStatusCode,response: $response');",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         }
     ]
 }
