@@ -29,6 +29,76 @@
             "text_is": "false",
             "code": "true",
             "image_is": "false"
+        },
+        {
+            "text": "Assigning a value to a variable\n\nTo assign a value to a variable, you use the assignment operator (=). For example, the following assigns 200 to the httpStatusCode variable:"
+        },
+        {
+            "code_path": "void main() {\n  int httpStatusCode;\n  httpStatusCode = 200;\n}"
+        },
+        {
+            "text": "To make it shorter, you can both declare a variable and initialize its value using a single statement like this:"
+        },
+        {
+            "code_path": "void main() {\n  int httpStatusCode = 200;\n}"
+        },
+        {
+            "text": "Once you assign a value to a variable, you can use it. For example, the following displays the value of the httpStatusCode variable:"
+        },
+        {
+            "code_path": "void main() {\n  int httpStatusCode = 200;\n  print('httpStatusCode: $httpStatusCode');\n}"
+        },
+        {
+            "code_path": "httpStatusCode: 200",
+            "title": "Output"
+        },
+        {
+            "text": "Note that if you use a variable that has not been initialized or assigned, you’ll get a compilation error.\n\nAssigning a variable to another\n\nDart allows you to assign a variable to another:"
+        },
+        {
+            "code_path": "variableName = anotherVariable;"
+        },
+        {
+            "code_path": "void main() {\n  int httpStatusCode = 200;\n  int response = httpStatusCode;\n\n  print('response: $response');\n}",
+            "title": "For example:"
+        },
+        {
+            "code_path": "response: 200",
+            "title": "Output:"
+        },
+        {
+            "text": "How it works.\n\nFirst, declare the httpStatusCode variable and initialize its value to 200:"
+        },
+        {
+            "code_path": "int httpStatusCode = 200;"
+        },
+        {
+            "text": "Second, declare the response variable and assign the httpStatusCode to the response variable:"
+        },
+        {
+            "code_path": "int response = httpStatusCode;"
+        },
+        {
+            "text": "Third, display the value of the response variable:"
+        },
+        {
+            "code_path": "print('response: $response');"
+        },
+        {
+            "text": "Note that the response and httpStatusCode has the same value. However, if you change the value of httpStatusCode variable, it won’t affect the response variable. For example:"
+        },
+        {
+            "code_path": "void main() {\n  int httpStatusCode = 200;\n  int response = httpStatusCode;\n  print('httpStatusCode: $httpStatusCode,response: $response');\n\n  httpStatusCode = 500;\n  print('httpStatusCode: $httpStatusCode,response: $response');\n}"
+        },
+        {
+            "code_path": "httpStatusCode: 200,response: 200\nhttpStatusCode: 500,response: 200",
+            "title": "Output:"
+        },
+        {
+            "text": "In this example:\n\nFirst, assign the httpStatusCode to the response variable. Both variables hold the same value 200:"
+        },
+        {
+            "code_path": "int httpStatusCode = 200;\nint response = httpStatusCode;\nprint('httpStatusCode: $httpStatusCode,response: $response');"
         }
     ]
 }
