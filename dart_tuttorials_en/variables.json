@@ -39,6 +39,7 @@
         },
         {
             "code_path": "void main() {\n  int httpStatusCode;\n  httpStatusCode = 200;\n}",
+            "title": "",
             "button_is": "false",
             "text_is": "false",
             "code": "true",
@@ -53,6 +54,7 @@
         },
         {
             "code_path": "void main() {\n  int httpStatusCode = 200;\n}",
+            "title": "",
             "button_is": "false",
             "text_is": "false",
             "code": "true",
@@ -67,6 +69,7 @@
         },
         {
             "code_path": "void main() {\n  int httpStatusCode = 200;\n  print('httpStatusCode: $httpStatusCode');\n}",
+            "title": "",
             "button_is": "false",
             "text_is": "false",
             "code": "true",
@@ -89,6 +92,7 @@
         },
         {
             "code_path": "variableName = anotherVariable;",
+            "title": "",
             "button_is": "false",
             "text_is": "false",
             "code": "true",
@@ -119,6 +123,7 @@
         },
         {
             "code_path": "int httpStatusCode = 200;",
+            "title": "",
             "button_is": "false",
             "text_is": "false",
             "code": "true",
@@ -133,6 +138,7 @@
         },
         {
             "code_path": "int response = httpStatusCode;",
+            "title": "",
             "button_is": "false",
             "text_is": "false",
             "code": "true",
@@ -147,6 +153,7 @@
         },
         {
             "code_path": "print('response: $response');",
+            "title": "",
             "button_is": "false",
             "text_is": "false",
             "code": "true",
@@ -161,6 +168,7 @@
         },
         {
             "code_path": "void main() {\n  int httpStatusCode = 200;\n  int response = httpStatusCode;\n  print('httpStatusCode: $httpStatusCode,response: $response');\n\n  httpStatusCode = 500;\n  print('httpStatusCode: $httpStatusCode,response: $response');\n}",
+            "title": "",
             "button_is": "false",
             "text_is": "false",
             "code": "true",
@@ -183,6 +191,7 @@
         },
         {
             "code_path": "int httpStatusCode = 200;\nint response = httpStatusCode;\nprint('httpStatusCode: $httpStatusCode,response: $response');",
+            "title": "",
             "button_is": "false",
             "text_is": "false",
             "code": "true",
