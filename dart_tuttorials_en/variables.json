@@ -17,6 +17,13 @@
         },
         {
             "text": "In this syntax, the ~{color:red}type~ specifies the values that the variable can store. Since Dart is a statically typed language, you need to explicitly specify the type of the variable.\n\nThe following shows some common types in Dart:\n\n   - ~{color:red}int~ – represents whole numbers like ~{color:red}-1~, ~{color:red}0~, ~{color:red}1~, ~{color:red}2~.\n   - ~{color:red}double~ – represents practical values like ~{color:red}0.5~, and ~{color:red}9.98~.\n   - ~{color:red}String~ – represents text such as ~{color:red}\"Good Morning!\"~.\n   - ~{color:red}bool~ – represents Boolean values including ~{color:red}true~ and ~{color:red}false~.\nBy convention, the variable name use ~{color:red}lowerCaseCamel~. It means that you should capitalize the first letter of each word except the first word, and use no separators. Also, you should name the variables as descriptive as possible.\n\nThe following example declares a variable with the integer type:",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
+            "code_path": "void main() {\n  int httpStatusCode;\n}",
             "title": "Dart",
             "button_is": "false",
             "text_is": "false",
