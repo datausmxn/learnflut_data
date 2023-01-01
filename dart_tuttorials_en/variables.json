@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "text" : "*~{fontSize:32}Dart Variables~*\n\n*Summary:* in this tutorial, you’ll learn about Dart variables and how to use them to store and manage data effectively.\n\n*Introduction to Dart variables*\n\nIn programming, you need to manage values like numbers, strings, and booleans. To store these values in programs, you use variables.\n\nA variable is an identifier that stores a value of a specific type. By definition, a variable is associated with a type and has a name.\n\n~{fontSize:32}Declaring variables~\n\nThe following syntax illustrates how to declare a variable:",
+            "text": "*~{fontSize:32}Dart Variables~*\n\n*Summary:* in this tutorial, you’ll learn about Dart variables and how to use them to store and manage data effectively.\n\n*Introduction to Dart variables*\n\nIn programming, you need to manage values like numbers, strings, and booleans. To store these values in programs, you use variables.\n\nA variable is an identifier that stores a value of a specific type. By definition, a variable is associated with a type and has a name.\n\n~{fontSize:32}Declaring variables~\n\nThe following syntax illustrates how to declare a variable:",
             "button_is": "false",
             "text_is": "true",
             "code": "false",
@@ -14,7 +14,14 @@
             "text_is": "false",
             "code": "true",
             "image_is": "false"
+        },
+        {
+            "text": "In this syntax, the ~{color:red}type~ specifies the values that the variable can store. Since Dart is a statically typed language, you need to explicitly specify the type of the variable.\n\nThe following shows some common types in Dart:\n\n   - ~{color:red}int~ – represents whole numbers like ~{color:red}-1~, ~{color:red}0~, ~{color:red}1~, ~{color:red}2~.\n   - ~{color:red}double~ – represents practical values like ~{color:red}0.5~, and ~{color:red}9.98~.\n   - ~{color:red}String~ – represents text such as ~{color:red}\"Good Morning!\"~.\n   - ~{color:red}bool~ – represents Boolean values including ~{color:red}true~ and ~{color:red}false~.\nBy convention, the variable name use ~{color:red}lowerCaseCamel~. It means that you should capitalize the first letter of each word except the first word, and use no separators. Also, you should name the variables as descriptive as possible.\n\nThe following example declares a variable with the integer type:",
+            "title": "Dart",
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "image_is": "false"
         }
-
     ]
 }
