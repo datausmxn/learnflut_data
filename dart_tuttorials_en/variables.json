@@ -196,6 +196,118 @@
             "text_is": "false",
             "code": "true",
             "image_is": "false"
+        },
+        {
+            "text_is": "true",
+            "code": "false",
+            "button_is": "false",
+            "text": "Second, assign 500 to the httpStatusCode and display the values of both variables:",
+            "image_is": "false"
+        },
+        {
+            "text_is": "false",
+            "code": "true",
+            "title": "",
+            "code_path": "httpStatusCode = 500;\nprint('httpStatusCode: $httpStatusCode,response: $response');",
+            "button_is": "false",
+            "image_is": "false"
+        },
+        {
+            "text_is": "true",
+            "code": "false",
+            "button_is": "false",
+            "text": "The output shows that changing the value of the response variable doesn’t affect the httpStatusCode variable.\n\nIf you have multiple variables with the same type, you can declare them all using a single statement. For example:",
+            "image_is": "false"
+        },
+        {
+            "text_is": "false",
+            "code": "true",
+            "title": "",
+            "code_path": "int httpStatusCode, response;",
+            "button_is": "false",
+            "image_is": "false"
+        },
+        {
+            "text_is": "true",
+            "code": "false",
+            "button_is": "false",
+            "text": "In this example, both httpStatusCode and response are integer variables. It uses a comma (,) to separate between the variables.\n\n~{fontSize:32}Type inference~\n\nIf you declare a variable and initialize its value at the same time as the following example, the Dart compiler will understand that 200 is an integer.",
+            "image_is": "false"
+        },
+        {
+            "text_is": "false",
+            "code": "true",
+            "title": "",
+            "code_path": "int httpStatusCode = 200;",
+            "button_is": "false",
+            "image_is": "false"
+        },
+        {
+            "text_is": "true",
+            "code": "false",
+            "button_is": "false",
+            "text": "Therefore, you don’t need to specify the type of the httpStatusCode variable explicitly. Instead, you can use the var keyword:",
+            "image_is": "false"
+        },
+        {
+            "text_is": "false",
+            "code": "true",
+            "title": "",
+            "code_path": "var httpStatusCode = 200;",
+            "button_is": "false",
+            "image_is": "false"
+        },
+        {
+            "text_is": "true",
+            "code": "false",
+            "button_is": "false",
+            "text": "In this case, the Dart compiler will infer the type of the httpStatusCode variable as an integer. This feature is called type inference in Dart.\n\nSimilarly, you can define a variable that holds a string without type inference like this:",
+            "image_is": "false"
+        },
+        {
+            "text_is": "false",
+            "code": "true",
+            "title": "",
+            "code_path": "String message = \"OK\";",
+            "button_is": "false",
+            "image_is": "false"
+        },
+        {
+            "text_is": "true",
+            "code": "false",
+            "button_is": "false",
+            "text": "Or you can use the type inference as follows:",
+            "image_is": "false"
+        },
+        {
+            "text_is": "false",
+            "code": "true",
+            "title": "",
+            "code_path": "var message = \"OK\";",
+            "button_is": "false",
+            "image_is": "false"
+        },
+        {
+            "text_is": "true",
+            "code": "false",
+            "button_is": "false",
+            "text": "The type inference also works if you assign a variable to another:",
+            "image_is": "false"
+        },
+        {
+            "text_is": "false",
+            "code": "true",
+            "title": "",
+            "code_path": "var message = \"OK\";\nvar response = message;",
+            "button_is": "false",
+            "image_is": "false"
+        },
+        {
+            "text_is": "true",
+            "code": "false",
+            "button_is": "false",
+            "text": "Summary\n\n   - A variable is an identifier in the program that holds a value of a specific type. The value of the variables can be changed throughout the program.v",
+            "image_is": "false"
         }
     ]
 }
