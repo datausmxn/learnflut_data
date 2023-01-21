@@ -1,7 +1,7 @@
 {
     "items": [
         {
-            "text": "*~{fontSize:32}Operators In Dart~*\r\nOperators are used to perform mathematical and logical operations on the variables. Each operation in dart uses a symbol called the operator to denote the type of operation it performs. Before learning operators in the dart, you must understand the following things.\r\n\r\n- Operands : It represents the data.\r\n- Operator It represents how the operands will be processed to produce a value.",
+            "text": "*~{fontSize:32}Operators In Dart~*\r\n\nOperators are used to perform mathematical and logical operations on the variables. Each operation in dart uses a symbol called the operator to denote the type of operation it performs. Before learning operators in the dart, you must understand the following things.\r\n\r\n- Operands : It represents the data.\r\n- Operator It represents how the operands will be processed to produce a value.",
             "button_is": "false",
             "text_is": "true",
             "code": "false",
@@ -27,7 +27,61 @@
             "text_is": "false",
             "code": "false",
             "image_is": "true",
-            "image": "https://datausmxn.github.io/learnflut_data/images/OPERATORS_IMAGE.jpg"
+            "image": "https://datausmxn.github.io/learnflut_data/images/OPERATORS_IMAGE.png"
+        },
+         {
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false",
+            "text": "Dartda arifmetik hisoblarni qanday bajarishni ko'rib chiqamiz."
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "code_path": "void main() {\r\n // declaring two numbers \r\n int num1=10;\r\n int num2=3;\r\n \r\n // performing arithmetic calculation\r\n int sum=num1+num2;       // addition\r\n int diff=num1-num2;      // subtraction\r\n int unaryMinus = -num1;    // unary minus  \r\n int mul=num1*num2;       // multiplication\r\n double div=num1/num2;    // division\r\n int div2 =num1~/num2;     // integer division\r\n int mod=num1%num2;       // show remainder\r\n \r\n//Printing info \r\n print(\"The addition is $sum.\");\r\n print(\"The subtraction is $diff.\");\r\n print(\"The unary minus is $unaryMinus.\");\r\n print(\"The multiplication is $mul.\");\r\n print(\"The division is $div.\");\r\n print(\"The integer division is $div2.\");\r\n print(\"The modulus is $mod.\"); \r\n}",
+            "title": "Dart",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "code_path": "The addition is 13.\r\nThe subtraction is 7.\r\nThe unary minus is -10.\r\nThe multiplication is 30.\r\nThe division is 3.3333333333333335.\r\nThe integer division is 3.\r\nThe modulus is 1.",
+            "title": "Output",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false",
+            "text": "Increment and Decrement Operators\r\nWith increment and decrement operators, you can increase and decrease values. If ++ is used at the beginning, then it is a prefix. If it is used at last, then it is postfix."
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "false",
+            "image_is": "true",
+            "image": "https://datausmxn.github.io/learnflut_data/images/increment_decrement.png"
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "code_path": "Note: ++var increases the value of operands, whereas var++ returns the actual value of operands before the increment",
+            "title": "Info",
+            "image_is": "false"
+        },
+        {
+            "button_is": "false",
+            "text_is": "false",
+            "code": "true",
+            "code_path": "void main() {\r\n// declaring two numbers \r\n int num1=0;\r\n int num2=0;\r\n \r\n// performing increment / decrement operator  \r\n\r\n// pre increment   \r\nnum2 = ++num1;\r\nprint(\"The value of num2 is $num2\");\r\n\r\n// reset value to 0 \r\nnum1 = 0;\r\nnum2 = 0;\r\n\r\n// post increment  \r\nnum2 =  num1++;\r\nprint(\"The value of num2 is $num2\");  \r\n  \r\n}",
+            "title": "Dart",
+            "image_is": "false"
         }
+
     ]
 }

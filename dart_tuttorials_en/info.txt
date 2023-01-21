@@ -16,7 +16,7 @@
             "text_is": "true",
             "code": "false",
             "image_is": "false",
-            ""
+            "text": ""
         }
 
         Image
