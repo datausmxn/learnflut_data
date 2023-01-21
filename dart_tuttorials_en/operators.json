@@ -16,18 +16,18 @@
             "image_is": "false"
         },
         {
+            "text": "*~{fontSize:32}Types Of Operators~*\n\n- Arithmetic Operators\n- Increment and Decrement Operators\n- Assignment Operators\n- Logical Operators\n- Type Test Operators\n\n*~{fontSize:32}Arithmetic Operators~*\n\nArithmetic operators are the most common types of operators. They perform operations like addition, subtraction, multiplication, division, etc.\n",
+            "button_is": "false",
+            "text_is": "true",
+            "code": "false",
+            "image_is": "false"
+        },
+        {
             "button_is": "false",
             "text_is": "false",
             "code": "false",
             "image_is": "true",
             "image": "https://datausmxn.github.io/learnflut_data/images/OPERATORS_IMAGE.jpg"
-        },
-        {
-            "text": "*~{fontSize:32}Types Of Operators~*\n- Arithmetic Operators\n- Increment and Decrement Operators\n- Assignment Operators\n- Logical Operators\n- Type Test Operators\n\n*~{fontSize:32}Arithmetic Operators~*\nArithmetic operators are the most common types of operators. They perform operations like addition, subtraction, multiplication, division, etc.\n\nOperator Symbol\tOperator Name\tDescription\n+\tAddition\tFor adding two operands\n-\tSubtraction\tFor subtracting two operands\n-expr\tUnary Minus\tFor reversing the sign of the expression\n*\tMultiplication\tFor multiplying two operands\n/\tDivision\tFor dividing two operands and give output in double\n~/\tInteger Division\tFor dividing two operands and give output in integer\n%\tModulus\tRemainder After Integer Division",
-            "button_is": "false",
-            "text_is": "true",
-            "code": "false",
-            "image_is": "false"
         }
     ]
 }
