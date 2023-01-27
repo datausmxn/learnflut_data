@@ -188,5 +188,125 @@
     "text_is": "false",
     "code": "true",
     "image_is": "false"
+  },
+  {
+    "id": 22,
+    "text": "*~{fontSize:32}Dartda Case Switch~*\\n\\nUshbu qo\\'llanmada siz o\\'z dasturingiz oqimini boshqarish uchun dart kalitidan foydalanishni o\\'rganasiz. Shartga qarab kod blokini bajarish uchun Switch case ishlatiladi.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 23,
+    "code_path": "switch(expression) {\n    case value1:\n        // statements\n        break;\n    case value2:\n        // statements\n        break;\n    case value3:\n        // statements\n        break;\n    default:\n       // default statements\n}",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 24,
+    "text": "Dartda switch-case operatori qanday ishlaydi\\n\\n- Ifoda bir marta baholanadi va har bir holat qiymati bilan solishtiriladi .\\n- Agar ifoda ish qiymati1 bilan mos kelsa, holat qiymati1 ning operatorlari bajariladi. Xuddi shunday, agar ifoda ish qiymati 2 ga mos kelsa, 2-sonli ish qiymati bajariladi. Agar ifoda ish qiymati3 ga mos kelsa, - - case qiymati3 ning operatorlari bajariladi.\\n- Break kalit so\\'zlari dartga switch iborasidan chiqishni aytadi, chunki case blokidagi operatorlar tugallangan.\\n- Agar moslik bo\\'lmasa, standart bayonotlar bajariladi.\\n\\nMa\\'lumot\\nEslatma : If-else-if shartiga muqobil sifatida Switch-dan foydalanishingiz mumkin .\\n\\nAgar boshqa bo\\'lsa, Switch In Dart bilan almashtiring\\nBu yerda siz bir xil dasturni if ​​else if va dart -ga o\\'tish orqali ko\\'rishingiz mumkin.\\n\\nIf Else If dan foydalanishga misol\\n\\nBu misolda if else if belgisidan foydalanib haftaning raqamli kuniga asoslangan kun nomi chop etiladi.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 25,
+    "code_path": "void main(){\n   var dayOfWeek = 5;\nif (dayOfWeek == 1) {\n        print(\"Day is Sunday.\");\n  }\nelse if (dayOfWeek == 2) {\n       print(\"Day is Monday.\");\n     }\nelse if (dayOfWeek == 3) {\n      print(\"Day is Tuesday.\");\n     }\nelse if (dayOfWeek == 4) {\n        print(\"Day is Wednesday.\");\n     }\nelse if (dayOfWeek == 5) {\n        print(\"Day is Thursday.\");\n   }\nelse if (dayOfWeek == 6) {\n        print(\"Day is Friday.\");\n    }\nelse if (dayOfWeek == 7) {\n        print(\"Day is Saturday.\");\n}else{\n        print(\"Invalid Weekday.\");\n     }\n }",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 26,
+    "code_path": "//Day is Thursday.",
+    "title": "Output",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 27,
+    "text": "Switch bayonotiga misol\\n\\nUshbu misolda haftaning raqamli kuniga asoslangan kun nomini almashtirish tugmasi yordamida chop etiladi.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 28,
+    "code_path": "void main() {\n  var dayOfWeek = 5;\n  switch (dayOfWeek) {\n    case 1:\n        print(\"Day is Sunday.\");\n        break;\n    case 2:\n        print(\"Day is Monday.\");\n      break;\n    case 3:\n      print(\"Day is Tuesday.\");\n      break;\n    case 4:\n        print(\"Day is Wednesday.\");\n      break;\n    case 5:\n        print(\"Day is Thursday.\");\n      break;\n    case 6:\n        print(\"Day is Friday.\");\n      break;\n    case 7:\n        print(\"Day is Saturday.\");\n      break;\n    default:\n        print(\"Invalid Weekday.\");\n      break;\n  }\n}",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 29,
+    "code_path": "//Day is Thursday.",
+    "title": "Chiqishi:",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 30,
+    "text": "Ma\\'lumot\\nEslatma : Switch iboralarining sintaksisi yanada toza va o\\'qish va yozishni ancha osonlashtiradi.\\n\\nCase On Strings ni almashtirish\\n\\nShuningdek, siz simli o\\'tish qutisidan foydalanishingiz mumkin. Ushbu dastur ob-havo qiymatiga asoslangan ma\\'lumotlarni chop etadi.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 31,
+    "code_path": "void main() {\n const weather = \"cloudy\";\n\n  switch (weather) {\n    case \"sunny\":\n        print(\"Its a sunny day. Put sunscreen.\");\n        break;\n    case \"snowy\":\n        print(\"Get your skis.\");\n      break;\n    case \"cloudy\":\n    case \"rainy\": \n      print(\"Please bring umbrella.\");\n      break;\n    default:\n        print(\"Sorry I am not familiar with such weather.\");\n      break;\n  }\n}\n// Chiqishi:\n//Please bring umbrella.",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 32,
+    "text": "Enum-da Case-ni yoqing\\n\\nAnenumyoki sanab o\\'tish sizga ko\\'ra qiymatni aniqlash uchun ishlatiladi. O\\'zingizning turingizni cheklangan miqdordagi variantlar bilan belgilashingiz mumkin. Bu erda enumni aniqlash sintaksisi.\\n\\nSintaksis",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 33,
+    "code_path": "enum enum_name { \n  constant_value1, \n  constant_value2, \n  constant_value3 \n  }",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 34,
+    "text": "Dartda Enum yordamida o\\'tishga misol\\n\\nEnum switch iboralari bilan yaxshi o\\'ynaydi. Keling, enum yordamida misolni ko\\'rib chiqaylik.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 35,
+    "code_path": "// define enum outside main function\nenum Weather{ sunny, snowy, cloudy, rainy}\n// main method\nvoid main() {\n const weather = Weather.cloudy;\n  \n  switch (weather) {\n    case Weather.sunny:\n        print(\"Its a sunny day. Put sunscreen.\");\n        break;\n    case Weather.snowy:\n        print(\"Get your skis.\");\n      break;\n    case Weather.rainy:\n    case Weather.cloudy:\n      print(\"Please bring umbrella.\");\n      break;\n    default:\n        print(\"Sorry I am not familiar with such weather.\");\n      break;\n  }\n}\n\n//Chiqishi:\n//Please bring umbrella.",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
   }
 ]}
