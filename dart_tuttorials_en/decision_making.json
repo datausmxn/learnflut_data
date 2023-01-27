@@ -1,0 +1,192 @@
+{
+"items" : [
+  {
+    "id": 0,
+    "text": "*~{fontSize:32}Dartdagi sharoitlar ~*\\nKompyuter dasturini yozishda kompyuterga turli vaziyatlarda nima qilish kerakligini ayta olish kerak. Shartlar bilan siz dart dasturining oqimini boshqarishingiz mumkin. Aytaylik, ma\\'lum bir vaziyat to\\'g\\'ri bo\\'lsa, ma\\'lum bir kodni bajarishingiz kerak. Bunday holda siz Dartdagi shartlardan foydalanishingiz mumkin. Masalan, agar foydalanuvchi ayirish tugmasini bossa, kalkulyator ilovasi ayirish va qo‘shish tugmasini bosgan bo‘lsa qo‘shishni amalga oshirishi kerak.\\n\\n*~{fontSize:32}Vaziyat turlari ~*\\n\\nDasturingiz oqimini boshqarish uchun quyidagi shartlardan foydalanishingiz mumkin.\\n\\n - Agar shart\\n - If-Else sharti\\n - If-Else-Agar sharti\\n - Kosonni almashtirish\\n\\n*~{fontSize:32}Agar shart ~*\\nDastur oqimini boshqarishning oson va eng keng tarqalgan usuli if iborasidan foydalanishdir . If bayonoti berilgan shart rost bo\\'lganda kod blokini bajarishga imkon beradi. Shartlar boolean qiymatlarni baholaydi.\\n\\n*~{fontSize:32}Sintaksis ~*",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 1,
+    "code_path": "if(condition) {\n    Statement 1;\n    Statement 2;\n       .\n       .\n    Statement n;\n}",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 2,
+    "text": "*~{fontSize: 32}If holatiga misol~*\\n\\nBu shaxsning saylovchi ekanligini ko\\'rsatadi. Agar odamning yoshi kattaroq va 18 ga teng bo\\'lsa, u chop etadi, Siz saylovchisiz.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 3,
+    "code_path": "void main()\n{\n    var yoshingiz = 20;\n    \n    if(yoshingiz >= 18){\n      print(\"Siz saylovda qatnasha olasiz\");\n    }\n}",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 4,
+    "code_path": "//Siz saylovda qatnasha olasiz.",
+    "title": "Chiqish javobi:",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 5,
+    "text": "If-Else sharti\\n\\nAgar shartning natijasi rost bo\\'lsa, u holda if-shartining tanasi bajariladi. Aks holda, else-shartning tanasi bajariladi.\\n\\nSintaksis",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 6,
+    "code_path": "if(condition){\nstatements;\n}else{\nstatements;\n}",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 7,
+    "text": "If-Else shartiga misol\\n\\nDart dasturi odamning saylovchi yoki yo\\'qligini yoshiga qarab chop etadi.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 8,
+    "code_path": "  void main()\n  {\n        int yosh = 12;\n        if(yosh >= 18){\n            print(\"Siz saylovda qatnasha olasiz.\");\n        }else{\n            print(\"Siz saylovda qatnasha olmaysiz.\");\n        }\n  }",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 9,
+    "code_path": "Siz saylovda qatnasha olmaysiz.",
+    "title": "Chiqish javobi:",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 10,
+    "text": "Mantiqiy qiymatga asoslangan shart\\n\\nAgar turmush qurgan maqomi noto\\'g\\'ri bo\\'lsa, u sizning turmush qurmaganligingizni ko\\'rsatadi; aks holda, u sizning turmush qurganingizni chop etadi.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 11,
+    "code_path": " void main()\n  {\n        bool uylanganmi = false;\n        if(uylanganmi){\n            print(\"Siz uylangansiz.\");\n        }else{\n            print(\"Siz bo\\'ydoqsiz.\");\n        }\n  }",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 12,
+    "code_path": "//Siz bo\\'ydoqsiz.",
+    "title": "Chiqish javobi:",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 13,
+    "text": "If-Else-if sharti\\n\\nAgar sizda bir nechta if shartlari mavjud bo\\'lsa, if-else-if dan foydalanishingiz mumkin. Quyidagi misolda ko\\'proq bilib olishingiz mumkin. Ikkitadan ortiq shartga ega boʻlsangiz, dartda if, else if, else dan foydalanishingiz mumkin.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 14,
+    "text": "\\nSintaksis",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 15,
+    "code_path": "if(condition1){\nstatements1;\n}else if(condition2){\nstatements2;\n}else if(condition3){\nstatements3;\n}\n.\n.\n.\nelse(conditionN){\nstatementsN;\n}",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 16,
+    "text": "If-Else-If shartiga misol\\n\\nUshbu dastur o\\'sha oyning raqamli qiymatiga asoslangan oy nomini chop etadi. Agar siz oy sonini o\\'zgartirsangiz, boshqa natijaga erishasiz.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 17,
+    "code_path": "void main() {\n  int oyningTartibRaqami = 5;\n\n  // Check the no of month\n  if (oyningTartibRaqami == 1) {\n    print(\"Yanvar oyi\");\n  } else if (oyningTartibRaqami == 2) {\n    print(\"Fevral oyi\");\n  } else if (oyningTartibRaqami == 3) {\n    print(\"Mart oyi\");\n  } else if (oyningTartibRaqami == 4) {\n    print(\"Aprel oyi\");\n  } else if (oyningTartibRaqami == 5) {\n    print(\"May oyi\");\n  } else if (oyningTartibRaqami == 6) {\n    print(\"Iyun oyi\");\n  } else if (oyningTartibRaqami == 7) {\n    print(\"Iyul oyi\");\n  } else if (oyningTartibRaqami == 8) {\n    print(\"Avgust oyi\");\n  } else if (oyningTartibRaqami == 9) {\n    print(\"Sentabr oyi\");\n  } else if (oyningTartibRaqami == 10) {\n    print(\"Oktabr oyi\");\n  } else if (oyningTartibRaqami == 11) {\n    print(\"Noyabr oyi\");\n  } else if (oyningTartibRaqami == 12) {\n    print(\"dekabr oyi\");\n  } else {\n    print(\"Yaroqsiz variant berilgan.\");\n  }\n}",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 18,
+    "code_path": "May oyi",
+    "title": "Chiqish javobi:",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 19,
+    "text": "3 ta sondan eng katta sonni toping\\n\\nDart dasturi, uchta raqam orasidan eng katta raqamni topadi.",
+    "button_is": "false",
+    "text_is": "true",
+    "code": "false",
+    "image_is": "false"
+  },
+  {
+    "id": 20,
+    "code_path": "void main()\n{\n        int num1 = 1200;\n        int num2 = 1000;\n        int num3 = 150;\n\n        if(num1 > num2  && num1 > num3){\n            print(\"1-raqam kattaroq: ya\\'ni $num1\");\n        }\n        if(num2 > num1 && num2 > num3){\n           print(\"2 raqami kattaroq: ya\\'ni $num2\");\n        }\n        if(num3 > num1 && num3 > num2){\n            print(\"3 raqami kattaroq: ya\\'ni $num3\");\n        }\n    }",
+    "title": "Dart",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  },
+  {
+    "id": 21,
+    "code_path": "//1 raqami kattaroq: ya\\'ni 1200",
+    "title": "Chiqish javobi:",
+    "button_is": "false",
+    "text_is": "false",
+    "code": "true",
+    "image_is": "false"
+  }
+]}
