@@ -1,0 +1,167 @@
+{
+    "items" : [
+      {
+        "id": 0,
+        "text": "~{fontSize: 32}Dart Loops~\\n\\nDart Loop kod blokini ma\\'lum bir necha marta yoki belgilangan shartga to\\'g\\'ri kelguncha takroriy bajarish uchun ishlatiladi. Looplar har qanday dasturlash tili uchun muhim vositadir. U ro\\'yxat, xarita va boshqalar kabi Dartni takrorlash va bir necha marta operatsiyalarni bajarish uchun ishlatiladi. Loop ikki qismdan iborat bo\\'lishi mumkin - tsiklning tanasi va boshqaruv bayonotlari. Loopning asosiy maqsadi kodni bir necha marta ishlatishdir. Dart quyidagi turdagi halqalarni qo\\'llab-quvvatlaydi.\\n\\n- Dart for loop\\n- Dart for…loop\\n- Dart while loop\\n- Dart do-while loop\\nDart loop lariga qisqacha kirishni quyidagicha tasvirlaymiz.\\n\\nDart for loop\\n\\nFor loop kod bloki necha marta bajarilishini bilganimizda ishlatiladi. Bu C for loop bilan bir xil . Sintaksis quyida keltirilgan.\\n\\n~{fontSize: 32}Sintaksis~",
+        "button_is": "false",
+        "text_is": "true",
+        "code": "false",
+        "image_is": "false"
+      },
+      {
+        "id": 1,
+        "code_path": "for(Initialization; condition; incr/decr) {  \n// loop body  \n}  ",
+        "title": "Dart",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 2,
+        "text": "Loop iteratsiyasi dastlabki qiymatdan boshlanadi. U faqat bir marta ishlaydi.\\n\\nShart sinov ifodasidir va u har bir iteratsiyadan keyin tekshiriladi. For tsikli berilgan shart tomonidan false qaytarilmaguncha bajariladi.\\n\\nIncr/decr - qiymatni oshirish yoki kamaytirish uchun hisoblagich.\\n\\nKeling, quyidagi misolni tushunaylik.\\n\\n~{fontSize: 32}Misol~",
+        "button_is": "false",
+        "text_is": "true",
+        "code": "false",
+        "image_is": "false"
+      },
+      {
+        "id": 3,
+        "code_path": "void  main()  \n{  \n    int  num =  1 ;  \n    for (num; num<= 10 ; num++)            //1-10 sonni chop etish uchun sikl.  \n    {  \n        print(num);     //num ni chop etish uchun  \n    }  \n} ",
+        "title": "Dart",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 4,
+        "code_path": "1\n2\n3\n4\n5\n6\n7\n8\n9\n10",
+        "title": "Output:",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 5,
+        "text": "~{fontSize: 32}Dart for… in Loop~\\nfor…in sikli for sikldan bir oz farq qiladi. U iterator sifatida faqat dart obyekti yoki ifodasini oladi va elementni birma-bir takrorlaydi. Elementning qiymati var ga bog\\'langan bo\\'lib, u loop tanasi uchun amal qiladi va mavjud. Loop iteratorda hech qanday element qolmaguncha bajariladi. Sintaksis quyida keltirilgan.\\n\\n~{fontSize: 32}Sintaksis ~",
+        "button_is": "false",
+        "text_is": "true",
+        "code": "false",
+        "image_is": "false"
+      },
+      {
+        "id": 6,
+        "code_path": " for (var in expression) {  \n//statement(s)  \n}  ",
+        "title": "Dart",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 7,
+        "code_path": "void main()  \n{  \n    var list1 = [10,20,30,40,50];  \n    for(var i in list1)           //for..in loop to print list element  \n    {  \n        print(i);       //to print the number  \n    }  \n}",
+        "title": "Misol",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 8,
+        "code_path": "10 \n20 \n30 \n40 \n50",
+        "title": "Chiqish:",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 9,
+        "text": "Elementni iteratordan olish uchun iterator o\\'zgaruvchisini e\\'lon qilishimiz kerak.\\n\\n~{fontSize: 32}Dart while loop~\\n\\nwhile sikli berilgan ifoda noto\\'g\\'ri bo\\'lgunga qadar kod blokini bajaradi. Qatl qilish sonini bilmaganimizda bu foydaliroq. Sintaksis quyida keltirilgan.",
+        "button_is": "false",
+        "text_is": "true",
+        "code": "false",
+        "image_is": "false"
+      },
+      {
+        "id": 10,
+        "code_path": "while(condition) {  \n   // loop body  \n}  ",
+        "title": "Sintaksis:",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 11,
+        "text": "Keling, quyidagi misolni tushunaylik.",
+        "button_is": "false",
+        "text_is": "true",
+        "code": "false",
+        "image_is": "false"
+      },
+      {
+        "id": 12,
+        "code_path": "void main() {\n  var a = 1;\n  var maxnum = 10;\n  while (a < maxnum) {\n    // ifoda noto\\'g\\'ri bo\\'lguncha chop etiladi  \n    print(a);\n    a = a + 1; // har bir iteratsiyadan keyin 1 qiymatini oshiring  \n  }\n}\n",
+        "title": "Misol:",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 13,
+        "code_path": "1\n2\n3\n4\n5\n6\n7\n8\n9",
+        "title": "Chiqish:",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 14,
+        "text": "~{fontSize: 32}Dart do… while Loop~\\n\\nDo…while sikli while sikliga o‘xshaydi, lekin farqi shundaki, u sikl operatorini bajaradi va keyin berilgan shartni tekshiradi. Sintaksis quyida keltirilgan.",
+        "button_is": "false",
+        "text_is": "true",
+        "code": "false",
+        "image_is": "false"
+      },
+      {
+        "id": 15,
+        "code_path": "do {  \n    // loop body  \n} while(condition);  ",
+        "title": "Sintaksi:",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 16,
+        "code_path": "void main() {\n  var a = 1;\n  var maxnum = 10;\n  do {\n    print(\"The value is: ${a}\");\n    a = a + 1;\n  } while (a < maxnum);\n}\n",
+        "title": "Misol:",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 17,
+        "code_path": "The value is: 1\nThe value is: 2\nThe value is: 3\nThe value is: 4\nThe value is: 5\nThe value is: 6\nThe value is: 7\nThe value is: 8\nThe value is: 9",
+        "title": "Chiqish:",
+        "button_is": "false",
+        "text_is": "false",
+        "code": "true",
+        "image_is": "false"
+      },
+      {
+        "id": 18,
+        "text": "~{fontSize: 32}Loopni tanlash~\\n\\nLoopni tanlash dasturchi uchun biroz qiyin vazifadir. Muayyan vazifani bajarish uchun qaysi pastadir ko\\'proq mos kelishini hal qilish qiyin. Quyidagi nuqtalarga asoslanib halqani aniqlashimiz mumkin.\\n\\n- Muammoni tahlil qiling va sizga sinovdan oldingi yoki testdan keyingi tsikl kerakmi yoki yo\\'qligini kuzating. Oldindan sinov tsikli - bu tsiklga kirishdan oldin shart sinovdan o\\'tkaziladi. Sinovdan keyingi tsiklda shart tsiklga kirgandan keyin tekshiriladi.\\n- Agar biz sinovdan oldingi tsiklni talab qilsak, while yoki for tsiklini tanlang.\\n- Agar bizga testdan keyingi tsikl kerak bo\\'lsa, u holda do-while siklini tanlang.",
+        "button_is": "false",
+        "text_is": "true",
+        "code": "false",
+        "image_is": "false"
+      }
+    ]}
