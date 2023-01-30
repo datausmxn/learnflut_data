@@ -27,7 +27,7 @@
       },
       {
         "id": 3,
-        "code_path": "void  main()  \n{  \n    int  num =  1 ;  \n    for (num; num<= 10 ; num++)            //1-10 sonni chop etish uchun sikl.  \n    {  \n        print(num);     //num ni chop etish uchun  \n    }  \n} ",
+        "code_path": "void  main()  \n{  \n    int  num =  1 ;  \n    for (num; num<= 10 ; num++) //1-10 sonni chop etish uchun sikl.  \n    {  \n        print(num); //raqamni chop etish uchun  \n    }  \n}  ",
         "title": "Dart",
         "button_is": "false",
         "text_is": "false",
